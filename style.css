@@ -59,6 +59,24 @@
     margin: 0 23px;
   }
 
+  @media only screen and (max-width: 365px) {
+        
+    .logos:before {
+        width: 02px;
+    }
+    
+    .logos:after {
+        width: 10px;
+    }
+
+    .logos-slide img {
+        height: 18px;
+        margin: 0 7px;
+      }
+    .logos {
+        padding: 8px 0;
+      }
+  }
   @media only screen and (max-width: 565px) {
         
     .logos:before {
@@ -113,24 +131,5 @@
       }
     .logos {
         padding: 22px 0;
-      }
-  }
-
-  @media only screen and (max-width: 768px) {
-        
-    .logos:before {
-        width: 20px;
-    }
-    
-    .logos:after {
-        width: 20px;
-    }
-
-    .logos-slide img {
-        height: 35px;
-        margin: 0 15px;
-      }
-    .logos {
-        padding: 15px 0;
       }
   }
